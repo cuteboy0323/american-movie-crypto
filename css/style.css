@@ -184,7 +184,7 @@ p {
 	font-size: 15px;
 	font-weight: 500;
 	line-height: 28px;
-	color: #cbcbcb;
+	color: #fff;
 	margin-bottom: 15px;
 }
 
@@ -367,21 +367,21 @@ label {
 
 /* scrollUp */
 #scrollUp {
-	background: #E4A101;
+	background: #aa1831;
 	height: 40px;
 	width: 40px;
 	right: 50px;
 	bottom: 50px;
-	color: #1c1121;
 	text-align: center;
 	border-radius: 0;
 	font-size: 22px;
+	color: #fff;
 	line-height: 38px;
+	border-radius: 8px;
 }
 
 #scrollUp:hover {
 	background: #444;
-	color: #fff;
 }
 
 
@@ -1026,11 +1026,8 @@ ul.minicart .cart-price .new {
 }
 
 .third-header-bg {
-	position: fixed;
-	top: 0%;
-	left: 0%;
-	width: 100%;
-	z-index: 9;
+	position: relative;
+	z-index: 1985;
 }
 
 .third-header-bg .bg {
@@ -1595,7 +1592,6 @@ ul.minicart .cart-price .new {
 .banner-bg {
 	position: relative;
 	padding: 150px 0 130px;
-	margin-top: -20px;
 	height: calc(100vh - 126px);
 	display: flex;
 	justify-content: center;
@@ -1813,11 +1809,11 @@ main::before {
 }
 
 .section-title h2 {
-	font-size: 45px;
-	font-weight: 800;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: 'grinddemolished';
+	font-weight: normal;
 	margin-bottom: 0;
-	line-height: 1;
-	letter-spacing: -2px;
 }
 
 .latest-games-items {
@@ -2022,7 +2018,7 @@ main::before {
 }
 
 .inner-about-content p {
-	color: #6c6c6c;
+	color: #fff;
 	margin-bottom: 12px;
 }
 
@@ -2072,6 +2068,7 @@ main::before {
 .third-about-img .main-img {
 	width: 80%;
 }
+
 .third-about-img .shadow {
 	position: absolute;
 	left: 50%;
@@ -2091,7 +2088,7 @@ main::before {
 }
 
 .third-title-style .inner {
-	padding-left: 0px;
+	padding-left: 45px;
 	margin-top: 45px;
 	position: relative;
 	margin-bottom: 45px;

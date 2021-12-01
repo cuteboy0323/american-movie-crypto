@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
@@ -59,9 +60,9 @@
                     <div class="col-sm-6">
                         <div class="header-top-login">
                             <ul>
-                                <li><a href="#"><i class="far fa-edit"></i>Register</a></li>
-                                <li class="or">or</li>
-                                <li><a href="#"><i class="far fa-edit"></i>sign in</a></li>
+                                <li><a href="whitepaper.pdf"><i class="fab fa-readme"></i>WHITEPAPER</a></li>
+                                <li class="or"></li>
+                                <li><a href="#"><i class="fas fa-wallet"></i>DAPP</a></li>
                             </ul>
                         </div>
                     </div>
@@ -75,7 +76,9 @@
                         <div class="main-menu menu-style-two">
                             <nav>
                                 <div class="logo d-block d-lg-none">
-                                    <a href="index-4.html"><img src="img/logo/logo.png" alt="Logo"></a>
+                                    <a href="index-4.html" style="color: #aa1831; font-size: 30px;">
+                                        <img style="height: 80px; margin-left: 35px;" src="img/logo/f_logo.png" alt="Logo">
+                                    </a>
                                 </div>
                                 <div class="navbar-wrap d-none d-lg-flex">
                                     <ul class="left">
@@ -117,34 +120,30 @@
                             <nav>
                                 <div id="mobile-menu" class="navbar-wrap">
                                     <ul>
-                                        <li class="show"><a href="#">Home</a>
+                                        <li class="show"><a href="#">Token info</a>
                                             <ul class="submenu">
-                                                <li><a href="index-2.html">Home One</a></li>
-                                                <li><a href="index-3.html">Home Two</a></li>
-                                                <li><a href="index-4.html">Home Three</a></li>
-                                                <li><a href="index.html">Home Four</a></li>
-                                                <li><a href="index-5.html">Home Five</a></li>
-                                                <li><a href="index-6.html">Home Six</a></li>
-                                                <li><a href="index-7.html">Home Seven</a></li>
+                                                <li><a
+                                                        href="https://bscscan.com/token/0x4a0624362B4C4079b123C82de9579f3a509C9dc9">BSC
+                                                        SCAN</a></li>
+                                                <li><a href="#">Source Code</a></li>
+                                                <li><a href="#">Token Holders</a></li>
+                                                <li><a href="#">LP Locked</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about-us.html">About</a></li>
-                                        <li><a href="game-overview.html">Overview</a></li>
-                                        <li><a href="community.html">Community</a></li>
-                                        <li><a href="#">Pages</a>
+                                        <li><a href="#">Live Charts</a>
                                             <ul class="submenu">
-                                                <li><a href="upcoming-games.html">Upcoming Games</a></li>
-                                                <li><a href="game-single.html">Game Single</a></li>
+                                                <li><a href="https://coinmarketcap.com/">CoinMarketCap</a></li>
+                                                <li><a href="https://www.coingecko.com/en">Coingecko</a></li>
+                                                <li><a href="https://poocoin.app/">PooCoin</a></li>
+                                                <li><a href="https://www.dextools.io/app/">DEX Tools</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="shop.html">Store</a></li>
-                                        <li><a href="#">Blog</a>
+                                        <li><a href="#">Buy Token</a>
                                             <ul class="submenu">
-                                                <li><a href="blog.html">News Page</a></li>
-                                                <li><a href="blog-details.html">News Details</a></li>
+                                                <li><a href="https://pancakeswap.finance/">Pancake Swap</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="#">Mareketplace</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -160,12 +159,13 @@
 
     <!-- main-area -->
     <main style="
-        padding-top: 149px;
         position: relative;
-        background-image: url(../img/bg/banner-bg.jpg);
+        background-image: url(./img/bg/banner-bg.jpg);
 	    background-attachment: fixed;
 	    background-position: center center;
 	    background-size: cover;
+        overflow: hidden;
+	    margin-top: -20px;
     ">
         <!-- slider-area -->
         <section class="banner-bg">
@@ -182,34 +182,138 @@
             </div>
         </section>
         <!-- slider-area-end -->
-        <!-- about-us-area -->
-        <section class="about-us-area pt-90 pb-120">
+        <!-- our-vision -->
+        <section class="about-us-area pt-10 pb-120">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 order-0 order-lg-2">
-                        <div class="about-img">
-                            <img src="img/images/about_us_img.jpg" alt="">
-                            <a href="https://www.youtube.com/watch?v=_LTiEXMc5J0" class="popup-video"><img
-                                    src="img/icon/play_btn.png" alt=""></a>
+                <div class="row justify-content-center wow lightSpeedIn">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-title title-style-two text-center mb-60">
+                            <span>AMERICAN MOVIE CRYPTO</span>
+                            <h2>OUR <span>VISION</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h6 class="wow flipInX">
+                        American Movie Crypto is a decentralized movie streaming platform on the Binance Smart Chain
+                        that will allow our users to watch American classic movies and other amateur produced films from
+                        around the world using our classic token ($AMC) as the primary medium of exchange.
+                        Catering toward both movie enthusiasts and amateur filmmakers alike – American Movie Crypto will
+                        create
+                        a fully integrated marketplace on a decentralized application that will bring the “metaverse” to
+                        the
+                        movie streaming industry in the new era of Web 3.0.
+                    </h6>
+                </div>
+            </div>
+        </section>
+        <!-- our-vision-end -->
+
+        <!-- our-vision -->
+        <section class="about-us-area pt-10 pb-120">
+            <div class="container">
+                <div class="row justify-content-center wow lightSpeedIn">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-title title-style-two text-center mb-60">
+                            <span>AMERICAN MOVIE CRYPTO</span>
+                            <h2>MARKET<span>PLACE</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h6 class="wow fadeInDownBig">
+                        The American Movie Crypto Marketplace will give movie enthusiasts access to a decentralized
+                        database of independently-produced movies and provide amateur filmmakers with the ability to
+                        upload their short independently-produced films as Non-Fungible Tokens (NFT) before they go
+                        mainstream.
+                    </h6>
+                    <h6 class="wow fadeInDownBig">
+                        The classic token ($AMC) will be the primary medium of exchange on the marketplace giving the
+                        token a sustainable long-term use case as we build out the American Movie Crypto Ecosystem.
+                    </h6>
+                </div>
+            </div>
+        </section>
+        <!-- our-vision-end -->
+
+        <!-- our-vision -->
+        <section class="about-us-area pt-10 pb-120">
+            <div class="container">
+                <div class="row justify-content-center wow bounceIn">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-title title-style-two text-center mb-60">
+                            <span>AMERICAN MOVIE CRYPTO</span>
+                            <h2><span>TOKEN</span>NOMICS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h6 class="wow bounceInDown">
+                        The total supply of the classic token ($AMC) is approximately 200,000,000 tokens. We will burn
+                        50 percent of the total supply prior to launch, which will leave approximately 100,000,000
+                        tokens in circulation at launch.
+                    </h6>
+                    <h6 class="wow bounceInLeft">
+                        There will be a 12 percent tax for each transaction (buy/sell), which will fund the liquidity
+                        pool (5%), marketing & development (5%), and redistribute reflections for “hodlers” (2%) in our
+                        community.
+                    </h6>
+                    <h6 class="wow bounceInRight">
+                        Our smart contract will include anti-sniper and anti-dumping features, which will protect the
+                        community from “pump and dump” like trading activity after our public debut on PancakeSwap on 19
+                        November 2021.
+                    </h6>
+                </div>
+            </div>
+        </section>
+        <!-- our-vision-end -->
+
+        <!-- contact-area -->
+        <section class="contact-area third-contact-bg">
+            <div class="container custom-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="third-contact-wrap">
+                            <div class="third-title-style">
+                                <h2>contact<span>us</span></h2>
+                                <div class="inner">
+                                    <h2>MEET oue team</h2>
+                                    <h6 class="vertical-title">AMERICAN</h6>
+                                    <ul>
+                                        <li>Want to get involved with our project? Please fill out the following to
+                                            submit your proposal!
+
+                                            You can also use the hashtag #join_amc on Twitter to get in contact with us.
+                                            We will respond as soon as possible!
+                                        </li>
+                                        <li><span>company :</span> AMC Blockchain Ltd</li>
+                                        <li><span>our location :</span> Los Angeles California – United States</li>
+                                        <li><span>Phone :</span> +1 (323) 689-2372</li>
+                                        <li><span>Email :</span> sales@americanmoviecrypto.com</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="section-title title-style-two mb-45">
-                            <span>AMERICAN MOVIE CRYPTO</span>
-                            <h2>OUR <span>BACKGROUND</span></h2>
-                        </div>
-                        <div class="about-content">
-                            <p>Find technology or people for digital projects in public sector and Find an individual
-                                specialist develo researcher.</p>
-                            <p>Consectur adipiscing elit, sed do eiusmod tempor incididunt labore dolore mana aliqua.
-                                Unimd minim venam quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip commodo cpsam.</p>
-                        </div>
+                        <form action="#" class="third-contact-form">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" placeholder="Your Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" placeholder="Your Phone">
+                                </div>
+                            </div>
+                            <textarea name="message" id="message" placeholder="Write Message"></textarea>
+                            <button class="btn rotated-btn">submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- about-us-area-end -->
+        <!-- contact-area-end -->
+
     </main>
     <!-- main-area-end -->
 
@@ -218,14 +322,9 @@
         <div class="copyright-wrap third-copyright-wrap">
             <div class="container custom-container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-12 col-md-12 text-center">
                         <div class="copyright-text">
-                            <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 d-none d-md-block">
-                        <div class="payment-method-img text-right">
-                            <img src="img/images/card_img.png" alt="img">
+                            <p>Copyright © 2020 <a href="#">AMERICAN MOVIE CRYPTO</a> All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>

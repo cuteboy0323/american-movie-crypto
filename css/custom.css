@@ -1,0 +1,18 @@
+.about-us-area {
+    position: relative;
+}
+
+.about-content h6 {
+    text-transform: uppercase;
+    font-family: 'grinddemolished';
+    font-weight: normal;
+    line-height: 1.6;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mobile-menu .meanmenu-reveal{
+    right: 15px !important;
+    margin-top: -55px !important;
+}
