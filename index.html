@@ -50,10 +50,7 @@
                             <ul>
                                 <li>Follow</li>
                                 <li><a href="http://t.me/AmericanMovieCrypto"><i class="fab fa-telegram"></i></a></li>
-                                <li><a href="https://medium.com/"><i class="fab fa-medium"></i></a></li>
                                 <li><a href="https://twitter.com/amc_bsc"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://facebook.com/"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="https://youtube.com/"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -77,12 +74,14 @@
                             <nav>
                                 <div class="logo d-block d-lg-none">
                                     <a href="index-4.html" style="color: #aa1831; font-size: 30px;">
-                                        <img style="height: 80px; margin-left: 35px;" src="img/logo/f_logo.png" alt="Logo">
+                                        <img style="height: 80px; margin-left: 35px;" src="img/logo/f_logo.png"
+                                            alt="Logo">
                                     </a>
+                                    <div id="lottie-logo"></div>
                                 </div>
                                 <div class="navbar-wrap d-none d-lg-flex">
                                     <ul class="left">
-                                        <li><a href="contact.html">American Movie Crypto - Watch Create Enjoy</a></li>
+                                        <li><a href="#">American Movie Crypto - Watch Create Enjoy</a></li>
                                     </ul>
                                     <div class="logo">
                                         <a href="index-3.html"><img src="img/logo/h3_logo.png" alt="Logo"></a>
@@ -91,10 +90,14 @@
                                         <li><a href="#">Token info</a>
                                             <ul class="submenu">
                                                 <li><a
-                                                        href="https://bscscan.com/token/0x4a0624362B4C4079b123C82de9579f3a509C9dc9">BSC
+                                                        href="https://bscscan.com/address/0x8225628fA5c0Dd62Ab04C9EAd8f31519f43f6f51">BSC
                                                         SCAN</a></li>
-                                                <li><a href="#">Source Code</a></li>
-                                                <li><a href="#">Token Holders</a></li>
+                                                <li><a
+                                                        href="https://bscscan.com/address/0x8225628fA5c0Dd62Ab04C9EAd8f31519f43f6f51#code">Source
+                                                        Code</a></li>
+                                                <li><a
+                                                        href="https://bscscan.com/token/0x8225628fA5c0Dd62Ab04C9EAd8f31519f43f6f51">Token
+                                                        Holders</a></li>
                                                 <li><a href="#">LP Locked</a></li>
                                             </ul>
                                         </li>
@@ -111,7 +114,7 @@
                                                 <li><a href="https://pancakeswap.finance/">Pancake Swap</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Mareketplace</a></li>
+                                        <li><a href="#">MARKETPLACE</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -249,24 +252,44 @@
                 </div>
                 <div class="about-content">
                     <h6 class="wow bounceInDown">
-                        The total supply of the classic token ($AMC) is approximately 200,000,000 tokens. We will burn
-                        50 percent of the total supply prior to launch, which will leave approximately 100,000,000
-                        tokens in circulation at launch.
+                        The total supply of the classic token ($AMC) is approximately 100,000,000 tokens. The liquidity
+                        is set
+                        to approximately 60 percent of the total amount raised during the public sale in order to pay
+                        for the
+                        initial development cost of the American Movie Crypto Marketplace, which will debut in late Q4
+                        2021.
                     </h6>
                     <h6 class="wow bounceInLeft">
-                        There will be a 12 percent tax for each transaction (buy/sell), which will fund the liquidity
-                        pool (5%), marketing & development (5%), and redistribute reflections for “hodlers” (2%) in our
-                        community.
-                    </h6>
-                    <h6 class="wow bounceInRight">
-                        Our smart contract will include anti-sniper and anti-dumping features, which will protect the
-                        community from “pump and dump” like trading activity after our public debut on PancakeSwap on 19
-                        November 2021.
+                        The
+                        tax to trade the classic token will be set at approximately 10 percent on the buy side and 20
+                        percent on
+                        the sell side. The 10 percent tax on the buy side will distribute 5 percent to liquidity and 5
+                        percent
+                        to marketing.
                     </h6>
                 </div>
             </div>
         </section>
         <!-- our-vision-end -->
+
+        <!-- am-chart -->
+        <section class="about-us-area pt-10 pb-120">
+            <div class="container">
+                <div class="row justify-content-center wow bounceIn">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-title title-style-two text-center mb-60">
+                            <span>Figure 1:</span>
+                            <h2><span>Multi-Chain</span> Token Allocation</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content wow rotateIn"
+                    style="display: flex; justify-content: center; align-items: center; padding: 0;">
+                    <div id="allocation" style="width: 100%; height: 500px"></div>
+                </div>
+            </div>
+        </section>
+        <!-- am-chart-end -->
 
         <!-- contact-area -->
         <section class="contact-area third-contact-bg">
@@ -277,7 +300,7 @@
                             <div class="third-title-style">
                                 <h2>contact<span>us</span></h2>
                                 <div class="inner">
-                                    <h2>MEET oue team</h2>
+                                    <h2>MEET our team</h2>
                                     <h6 class="vertical-title">AMERICAN</h6>
                                     <ul>
                                         <li>Want to get involved with our project? Please fill out the following to
@@ -356,6 +379,17 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"
+        integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+    <!-- AM Chart -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 
